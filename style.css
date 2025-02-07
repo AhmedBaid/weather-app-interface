@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: url("https://wallpapers.com/images/hd/perfect-weather-with-gradient-sky-ym0nn79vhoqg34v3.jpg");
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+.weather-app {
+    z-index: 100;
+    display: flex;
+    justify-content: space-around;
+    background: rgba(128, 128, 128, 0.738);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 60%;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.search {
+    margin-bottom: 20px;
+}
+
+input {
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    height: 30px;
+    margin:auto;
+}
+
+button {
+    margin-top: 20px;
+    font-size: 22px;
+    width: 200px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    background: rgba(0, 255, 255, 0.7);
+}
+
+button:hover {
+    background: rgba(0, 255, 255, 0.793);
+}
+
+.weather-info {
+    display: none;
+}
+
+#city-name {
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: aqua;
+}
+
+#temperature {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+#weather-condition {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+#humidity,
+#wind-speed {
+    margin: 5px 0;
+    font-weight: bold;
+}
